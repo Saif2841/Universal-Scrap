@@ -396,6 +396,6 @@ python universal_scraper.py -u "YOUR_URL_HERE" -o output.json
 
 ---
 
-**Made with ❤️ for data enthusiasts**
+**Made with ❤️ and SeifEddine BOUSSAID**
 
 *Remember: Always respect websites' Terms of Service and robots.txt!*

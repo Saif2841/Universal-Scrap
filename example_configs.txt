@@ -1,0 +1,105 @@
+# Example 1: Ecommerce Product Scraping
+# Save as: ecommerce_config.json
+{
+  "container": ".product-item",
+  "name": ".product-title",
+  "price": ".price",
+  "rating": ".stars",
+  "link": "a",
+  "image": "img",
+  "pagination": true,
+  "max_pages": 10
+}
+
+# Example 2: News Article Scraping
+# Save as: news_config.json
+{
+  "container": ".article-card",
+  "title": "h3",
+  "excerpt": ".excerpt",
+  "date": ".publish-date",
+  "author": ".author-name",
+  "link": "a.article-link",
+  "pagination": true,
+  "max_pages": 5
+}
+
+# Example 3: Job Listings
+# Save as: jobs_config.json
+{
+  "container": ".job-listing",
+  "title": ".job-title",
+  "company": ".company-name",
+  "location": ".job-location",
+  "salary": ".salary-range",
+  "link": "a.apply-link",
+  "pagination": true,
+  "next_button": "a.next-page",
+  "max_pages": 20
+}
+
+# Example 4: Real Estate Listings
+# Save as: realestate_config.json
+{
+  "container": ".property-card",
+  "address": ".property-address",
+  "price": ".property-price",
+  "bedrooms": ".bedrooms",
+  "bathrooms": ".bathrooms",
+  "sqft": ".square-footage",
+  "link": "a.property-link",
+  "image": "img.property-image",
+  "pagination": true,
+  "max_pages": 15
+}
+
+# Example 5: Restaurant Reviews
+# Save as: restaurant_config.json
+{
+  "container": ".restaurant-item",
+  "name": ".restaurant-name",
+  "cuisine": ".cuisine-type",
+  "rating": ".rating-value",
+  "reviews_count": ".reviews-count",
+  "price_range": ".price-level",
+  "address": ".restaurant-address",
+  "link": "a.restaurant-link"
+}
+
+# Example 6: Social Media Posts
+# Save as: social_config.json
+{
+  "container": ".post",
+  "author": ".post-author",
+  "content": ".post-content",
+  "likes": ".like-count",
+  "comments": ".comment-count",
+  "timestamp": ".post-time",
+  "link": "a.post-link"
+}
+
+# Example 7: Academic Papers
+# Save as: academic_config.json
+{
+  "container": ".paper-item",
+  "title": ".paper-title",
+  "authors": ".author-list",
+  "abstract": ".abstract",
+  "publication_date": ".pub-date",
+  "citations": ".citation-count",
+  "doi": ".doi-link",
+  "pdf_link": "a.pdf-download"
+}
+
+# Example 8: Sports Scores (Generic)
+# Save as: sports_config.json
+{
+  "container": ".match-row",
+  "home_team": ".home-team-name",
+  "away_team": ".away-team-name",
+  "home_score": ".home-score",
+  "away_score": ".away-score",
+  "match_date": ".match-date",
+  "league": ".league-name",
+  "status": ".match-status"
+}
